@@ -1,11 +1,11 @@
 .App {
-  background-color: #03318d;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  transition: all 0.5s ease-in-out;
   #quote-box {
     max-width: 50%;
     border-radius: 10px;
@@ -16,7 +16,6 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     background-color: white;
-    color: #03318d;
     p {
       margin-top: 1em;
     }
@@ -29,7 +28,6 @@
       #new-quote {
         border-style: none;
         border-radius: 5px;
-        background-color: #03318d;
         color: white;
         cursor: pointer;
       }
