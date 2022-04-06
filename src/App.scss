@@ -1,0 +1,38 @@
+.App {
+  background-color: #03318d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  #quote-box {
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: white;
+    color: #03318d;
+    p {
+      margin-top: 1em;
+    }
+    .buttons {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 1em;
+      #new-quote {
+        border-style: none;
+        border-radius: 5px;
+        background-color: #03318d;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
